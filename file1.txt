@@ -3,7 +3,7 @@ b = int(input())
 a = []
 for j in range(b):
 	a[j] = int(input())	 
-MAX = -10000000000000000000
+MIN = 10000000000000000000
 for i in range(len(a)):
-	MAX = max(MAX, a[i])
-print(MAX)
+	MIN = min(MIN, a[i])
+print(MIN)
