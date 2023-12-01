@@ -1,6 +1,9 @@
 #python
-a = [1, 3, 7, 4, 83, 14, 75]
-MAX = 0
-for i in range(0, len(a)):
+b = int(input())
+a = []
+for j in range(b):
+	a[j] = int(input())	 
+MAX = -10000000000000000000
+for i in range(len(a)):
 	MAX = max(MAX, a[i])
 print(MAX)
