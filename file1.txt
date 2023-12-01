@@ -1,0 +1,6 @@
+#python
+a = [1, 3, 7, 4, 83, 14, 75]
+MAX = 0
+for i in range(0, len(a)):
+	MAX = max(MAX, a[i])
+print(MAX)
